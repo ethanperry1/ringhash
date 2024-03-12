@@ -2,12 +2,13 @@
 
 Ringhash is a golang implementation of a ring hash data structure, with some additional special features:
 1. Generic key-value store
-2. Channel based notification system
-4. Optionally duplicate hashing keys
-5. Ordering mechanism for channel notifications
-6. Concurrency safe for every method
-7. "Empty Node," where keys are assigned when no nodes are present
-3. Virtual factor (vfactor) to increase key distribution amoung nodes
+1. Channel based notification system
+1. Optionally duplicate hashing keys
+1. Ordering mechanism for channel notifications
+1. Concurrency safe for every method
+1. "Empty Node," where keys are assigned when no nodes are present
+1. Virtual factor (vfactor) to increase key distribution amoung nodes
+1. Zero non-testing dependencies
 
 ## Quickstart
 
